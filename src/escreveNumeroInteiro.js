@@ -12,6 +12,7 @@ function imprimeNumero(numero) {
   }
 }
 
+console.log("------------ Repetidor de número inteiro ------------");
 const numero = Number(prompt("Insira um número para ser impresso na tela: "));
 if (Number.isInteger(numero)) {
   imprimeNumero(numero);

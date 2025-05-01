@@ -13,7 +13,9 @@ function verificadorFaixaEtaria(idade) {
   else return "idoso";
 }
 
+console.log("------------ Classificador de Faixa Etária ------------");
 const idade = Number(prompt("Insira a idade para fazer a verificação: "));
+
 if (idade < 0 || idade >= 120 || isNaN(idade)) {
   console.log("Idade Inválida");
 } else {

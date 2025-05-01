@@ -8,6 +8,8 @@ const prompt = require("prompt-sync")();
 
 let soma = 0;
 
+console.log("------------ Calculador de 5 números ------------");
+
 for (let i = 5; i > 0; i--) {
   let numero = Number(prompt("Digite um número: "));
   soma += numero;

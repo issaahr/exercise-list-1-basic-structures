@@ -19,6 +19,7 @@ function ordenaDoisNumeros(primeiroNumero, segundoNumero) {
   ];
 }
 
+console.log("------------ Verificador do maior número ------------");
 const primeiroNumero = Number(prompt("Insira o primeiro número: "));
 const segundoNumero = Number(prompt("Insira o segundo número: "));
 

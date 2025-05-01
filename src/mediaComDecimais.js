@@ -8,6 +8,9 @@ const prompt = require("prompt-sync")();
 let quantidadeNumeros = 0;
 let acumulador = 0;
 
+console.log(
+  "------------ Calculadora de média de números decimais ------------"
+);
 while (true) {
   const entrada = prompt(
     "Digite um número decimal para acumular na média (ou 0 para sair): "

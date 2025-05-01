@@ -19,6 +19,7 @@ function calculaTotalMaça(quantidadeMacas) {
   }
 }
 
+console.log("------------ Faturamento de Compra de Maçãs ------------");
 const quantidadeMacas = Number(prompt("Quantas maçãs foram compradas? "));
 
 if (Number.isNaN(quantidadeMacas) || quantidadeMacas < 0) {

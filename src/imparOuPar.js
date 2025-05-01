@@ -5,6 +5,7 @@
  */
 const prompt = require("prompt-sync")();
 
+console.log("------------ Verificador de número par ou ímpar ------------");
 const numeroRecebido = Number(
   prompt("Insira um número para testar se é par ou ímpar: ")
 );

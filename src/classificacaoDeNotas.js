@@ -17,7 +17,9 @@ function verificadorNota(nota) {
   else return "aprovado";
 }
 
+console.log("------------ Verificador de Situação por Notas ------------");
 const nota = Number(prompt("Insira a nota: "));
+
 if (nota < 0 || nota > 10 || Number.isNaN(nota)) {
   console.log("Nota inválida");
 } else {
