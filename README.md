@@ -39,6 +39,7 @@ npm start
 
 O menu apresentará as seguintes opções:
 
+```text
 1. Verificador de número par ou ímpar
 2. Classificador de Faixa Etária
 3. Classificação de Notas
@@ -55,6 +56,7 @@ O menu apresentará as seguintes opções:
 14. Calculadora de Fatorial
 15. Sequência de Fibonacci
 0. Sair
+```
 
 ### Executando Exercícios Individualmente
 
