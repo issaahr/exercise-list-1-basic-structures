@@ -1,4 +1,12 @@
 {
+  "name": "Lista de exercícios +praTI",
+  "version": "1.0.0",
+  "description": "Lista de exercícios sobre estruturas básicas",
+  "main": "menu.js",
+  "type": "module",
+  "scripts": {
+    "start": "node menu.js"
+  },
   "dependencies": {
     "prompt-sync": "4.2.0"
   }

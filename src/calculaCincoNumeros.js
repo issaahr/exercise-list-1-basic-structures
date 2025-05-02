@@ -4,15 +4,23 @@
  * utilizando um loop for.
  */
 
-const prompt = require("prompt-sync")();
+import prompt from "prompt-sync";
+const promptSync = prompt();
 
-let soma = 0;
+export function calculadorSomaCincoNumeros() {
+  let soma = 0;
 
-console.log("------------ Calculador de 5 números ------------");
+  console.log("------------ Calculador de 5 números ------------");
 
-for (let i = 5; i > 0; i--) {
-  let numero = Number(prompt("Digite um número: "));
-  soma += numero;
+  for (let i = 5; i > 0; i--) {
+    let numero = Number(promptSync("Digite um número: "));
+    soma += numero;
+  }
+
+  console.log(`A soma é de ${soma}`);
 }
 
-console.log(`A soma é de ${soma}`);
+// Executa a função se o arquivo for executado diretamente
+if (process.argv[1].endsWith("calculaCincoNumeros.js")) {
+  calculadorSomaCincoNumeros();
+}
